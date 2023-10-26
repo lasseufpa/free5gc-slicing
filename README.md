@@ -1,14 +1,14 @@
-# free5GC compose
+# free5GC Slincing
 
-This repository is a docker compose version of [free5GC](https://github.com/free5gc/free5gc) for stage 3. It's inspired by [free5gc-docker-compose](https://github.com/calee0219/free5gc-docker-compose) and also reference to [docker-free5gc](https://github.com/abousselmi/docker-free5gc).
+This repository is a docker compose version of [free5GC](https://github.com/free5gc/free5gc) for stage 3, implementing network slicing at the core level. It's inspired by [free5gc-docker-compose](https://github.com/calee0219/free5gc-docker-compose)
 
-You can setup your own config in [config](./config) folder and [docker-compose.yaml](docker-compose.yaml)
-
+To configure your own settings, please navigate to the [config](./config) folder and [docker-compose.yaml](docker-compose.yaml) files."
 ## Prerequisites
 
+- Free5GC Release 3.3.0
 - I use Ubuntu 20.04 LTS and Kernel 5.15.0
 - [GTP5G kernel module](https://github.com/free5gc/gtp5g): needed to run the UPF
-  
+   
 ```bash
 git clone https://github.com/free5gc/gtp5g.git && cd gtp5g
 make clean && make
