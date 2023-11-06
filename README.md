@@ -2,7 +2,7 @@
 
 This repository is a docker compose version of [free5GC](https://github.com/free5gc/free5gc) for stage 3, implementing network slicing at the core level. It's inspired by [free5gc-docker-compose](https://github.com/calee0219/free5gc-docker-compose)
 
-To configure your own settings, please navigate to the [config](./config) folder and [docker-compose.yaml](docker-compose.yaml) files."
+To configure your own settings, please navigate to the config] folder and docker-compose.yaml files."
 ## Prerequisites
 
 - Free5GC Release 3.3.0
